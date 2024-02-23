@@ -1,0 +1,36 @@
+#dashboard{
+	display: block;
+	width: 80%;
+	height: 100%;
+	position: relative;
+	left: 10%;
+	top: 0;
+}
+#dashboard_sidebar{
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 25%;
+	background: #03bfcb;
+	height: 100%;
+}
+#dashboard_content{
+	position: absolute;
+	top: 0px;
+	left: 25%;
+	width: 75%;
+	background: white;
+	height: 100%;
+	padding: 10px;
+}
+#add_new_product input[type='text']{
+	width: 40%;
+	margin-right: 15px;
+	margin-bottom: 20px;
+}
+#add_new_product input[type='file']{
+	margin-bottom: 20px;
+}
+#input_block{
+	display: block;
+}
